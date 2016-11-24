@@ -5,46 +5,55 @@ import ManageObj from './Manage.js';
             .init('wrapper')
                 .addPage('index')
                     .addComponent({
-                        width:428,
-                        height :92,
+                        width:500,
+                        height :50,
                         center:true,
+                        text:'感谢老师观看',
                         css:{
                             position:'absolute',
-                            top:-10,
+                            top:0,
                             opacity:0,
-                            backgroundImage:'url(./src/img/logoIndex.png)'
+                            lineHeight:'35px',
+                            fontSize:'35px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'#fff'
                         },
                         animateIn:{
                             top:100,
                             opacity:1
                         },
                         animateOut:{
-                            top:-10,
+                            top:0,
                             opacity:0
                         },
                         delay:200
                     })
                       .addComponent({
-                        name:'shake',
-                        width:370,
-                        height :96,
+                        width:500,
+                        height :50,
                         center:true,
+                        name:'shake',
+                        text:'寻找实习计划！（做着玩的）',
                         css:{
                             position:'absolute',
-                            top:220,
-                            left:0,
+                            top:0,
                             opacity:0,
-                            backgroundImage:'url(./src/img/slogan.png)'
+                            lineHeight:'35px',
+                            fontSize:'35px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'#fff'
                         },
                         animateIn:{
-                            left:'50%',
+                            top:250,
                             opacity:1
                         },
                         animateOut:{
-                            left:0,
+                            top:0,
                             opacity:0
                         },
-                        delay:800
+                        delay:600
                     })
                      .addComponent({
                         width:346,
@@ -115,7 +124,7 @@ import ManageObj from './Manage.js';
                         width:500,
                         height :50,
                         center:true,
-                        text:'用实力让情怀落地！',
+                        text:'用实力证明自己！',
                         css:{
                             position:'absolute',
                             top:0,
@@ -139,7 +148,7 @@ import ManageObj from './Manage.js';
                      .addComponent({
                         width:522,
                         height :300,
-                        text:'渡一教育创立于2015年！在成哥 邓哥 彤哥的带领下向着高端编程教育公司大踏步，渡一 Dream Factory，渡一Web Coffee 于今年成立',
+                        text:'说点什么呢，不知道啊，随便说点吧，看到这个的老师辛苦了，谢谢老师尊重我，万分感谢，现在技术还很稚嫩，我会努力的！！！',
                         center:true,
                         css:{
                             position:'absolute',
@@ -206,7 +215,7 @@ import ManageObj from './Manage.js';
                         width:428,
                         height :92,
                         center:true,
-                        text:'课程体系柱状图',
+                        text:'训练内容柱状图',
                         css:{
                             position:'absolute',
                             top:0,
@@ -247,11 +256,11 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                           data:[
-                        ['js',0.3,'red'],
-                        ['html',0.1,'blue'],
-                        ['css3',0.2,'pink'],
-                        ['jquery',0.2,'green'],
-                        ['react',0.2,'black']
+                        ['颜值',0.3,'red'],
+                        ['身高',0.1,'blue'],
+                        ['性格',0.2,'pink'],
+                        ['爱好',0.2,'green'],
+                        ['实力',0.2,'black']
                         ],
                         delay:1000
                     })
@@ -279,7 +288,7 @@ import ManageObj from './Manage.js';
                         width:428,
                         height :92,
                         center:true,
-                        text:'课程体系折线图',
+                        text:'训练内容折线图',
                         css:{
                             position:'absolute',
                             top:0,
@@ -320,11 +329,11 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                           data:[
-                        ['js',0.3,'red'],
-                        ['html',0.1,'blue'],
-                        ['css3',0.2,'pink'],
-                        ['jq',0.3,'green'],
-                        ['react',0.1,'black']
+                        ['颜值',0.3,'red'],
+                        ['身高',0.1,'blue'],
+                        ['性格',0.2,'pink'],
+                        ['爱好',0.3,'green'],
+                        ['实力',0.1,'black']
                         ],
                         delay:1000
                     })
@@ -352,7 +361,7 @@ import ManageObj from './Manage.js';
                         width:428,
                         height :92,
                         center:true,
-                        text:'课程体系饼图',
+                        text:'训练内容饼图',
                         css:{
                             position:'absolute',
                             top:0,
@@ -393,11 +402,11 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                           data:[
-                        ['js',0.3,'red'],
-                        ['html',0.1,'blue'],
-                        ['css3',0.2,'pink'],
-                        ['jq',0.3,'green'],
-                        ['react',0.1,'yellow']
+                        ['颜值',0.3,'red'],
+                        ['身高',0.1,'blue'],
+                        ['性格',0.2,'pink'],
+                        ['实力',0.3,'green'],
+                        ['爱好',0.1,'yellow']
                         ],
                         delay:1000
                     })
@@ -448,46 +457,55 @@ import ManageObj from './Manage.js';
                             right:50,
                             opacity:0
                         },
-                        delay:600
+                        delay:400
                     })
                     .addComponent({
-                        name:'shake',
-                        width:428,
-                        height :92,
+                        width:500,
+                        height :50,
                         center:true,
+                        name:'shake',
+                        text:'谢谢老师观看',
                         css:{
                             position:'absolute',
                             top:0,
                             opacity:0,
-                            backgroundImage:'url(./src/img/logo.png)'
+                            lineHeight:'35px',
+                            fontSize:'35px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'#f40'
                         },
                         animateIn:{
-                            top:250,
+                            top:200,
                             opacity:1
                         },
                         animateOut:{
                             top:0,
                             opacity:0
                         },
-                        delay:1000
+                        delay:600
                     })
                     .addComponent({
-                        width:370,
-                        height :96,
+                        width:428,
+                        height :92,
                         center:true,
+                        text:'一起来吧！！！',
                         css:{
                             position:'absolute',
-                            bottom:200,
-                            left:0,
+                            top:0,
                             opacity:0,
-                            backgroundImage:'url(./src/img/slogan.png)'
+                            lineHeight:'35px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            fontSize:'25px',
+                            color:'#f40'
                         },
                         animateIn:{
-                            left:'50%',
+                            top:400,
                             opacity:1
                         },
                         animateOut:{
-                            left:0,
+                            top:0,
                             opacity:0
                         },
                         delay:800
