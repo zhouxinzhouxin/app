@@ -32,7 +32,7 @@ let ComponentPolyFactory=(config)=>{
         var x=textw*(index+1)
         var otext=$('<div class="text"/>');
         otext.text(ele[0]);
-        otext.css({width:textw,position:'absolute',left:x-textw/2,bottom:-20,textAlign:'center'});
+        otext.css({width:textw,position:'absolute',left:x-textw/2,bottom:-20,textAlign:'center',fontSize:'14px'});
         Component.append(otext);
     });
     // 描点划线

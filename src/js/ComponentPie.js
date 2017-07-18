@@ -72,7 +72,7 @@ let ComponentPieFactory=(config)=>{
                 draw(s);
             },10*i)
         }
-        },config.delay+400||400)
+        },config.delay+800||800)
     })
      Component.on('cpLeave',()=>{
         let s=0;
@@ -83,7 +83,7 @@ let ComponentPieFactory=(config)=>{
                 draw(s);
             },10*i)
         }
-        },config.delay+400||400)
+        },config.delay+800||800)
     })
     return Component;
 }

@@ -12,12 +12,11 @@ let ComponentBarFactory = (config) => {
             name.text(ele[0]);
 
         let load = $('<div class="load">');
-            load.css('width', ele[1] * 300);
+            load.css('width', ele[1] * 120);
 
         let loadInner = $('<div class="loadInner">');
             loadInner.css('background', ele[2]);
                 load.append(loadInner);
-
         let per = $('<div class="per"/>');
             per.text(ele[1] * 100 + '%');
 

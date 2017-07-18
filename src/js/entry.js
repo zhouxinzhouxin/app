@@ -1,61 +1,91 @@
 import './jqui.js';
 import './jqfp.js';
 import ManageObj from './Manage.js';
+
+let maxHeight = window.innerHeight;
   ManageObj
             .init('wrapper')
                 .addPage('index')
                     .addComponent({
-                        width:500,
-                        height :50,
+                        width:420,
+                        height :92,
+                        text:'个人简历',
                         center:true,
-                        text:'感谢老师观看',
                         css:{
                             position:'absolute',
-                            top:0,
-                            opacity:0,
-                            lineHeight:'35px',
-                            fontSize:'35px',
+                            top:-10,
+                            lineHeight:'46px',
+                            fontSize:'46px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#fff'
+                            color:'rgb(250,250,150)',
+                            opacity:0
                         },
                         animateIn:{
                             top:100,
                             opacity:1
                         },
                         animateOut:{
-                            top:0,
+                            top:-10,
                             opacity:0
                         },
                         delay:200
                     })
-                      .addComponent({
-                        width:500,
-                        height :50,
+                    .addComponent({
+                        width:400,
+                        height :60,
                         center:true,
-                        name:'shake',
-                        text:'寻找实习计划！（做着玩的）',
+                        name:'strgth',
+                        text:'周鑫',
                         css:{
                             position:'absolute',
-                            top:0,
-                            opacity:0,
-                            lineHeight:'35px',
-                            fontSize:'35px',
+                            top:'220px',
+                            left:0,
+                            lineHeight:'30px',
+                            fontSize:'30px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#fff'
+                            color:'rgb(250,250,150)',
+                            opacity:0
                         },
                         animateIn:{
-                            top:250,
+                            left:'50%',
                             opacity:1
                         },
                         animateOut:{
-                            top:0,
+                            left:0,
                             opacity:0
                         },
-                        delay:600
+                        delay:1000
                     })
-                     .addComponent({
+                    .addComponent({
+                      width:400,
+                      height :60,
+                      center:true,
+                        name:'strgth',
+                      text:'前端工程师',
+                      css:{
+                          position:'absolute',
+                          top:260,
+                          left:0,
+                          lineHeight:'30px',
+                          fontSize:'30px',
+                          textAlign:'center',
+                          fontWeight:'900',
+                          color:'rgb(250,250,150)',
+                          opacity:0
+                      },
+                      animateIn:{
+                          left:'50%',
+                          opacity:1
+                      },
+                      animateOut:{
+                          left:0,
+                          opacity:0
+                      },
+                      delay:1000
+                    })
+                    .addComponent({
                         width:346,
                         height :494,
                         css:{
@@ -75,7 +105,7 @@ import ManageObj from './Manage.js';
                             left:-20,
                             opacity:0
                         },
-                        delay:1200
+                        delay:1500
                     })
                     .addComponent({
                         width:324,
@@ -97,18 +127,23 @@ import ManageObj from './Manage.js';
                             right:-20,
                             opacity:0
                         },
-                        delay:1600
+                        delay:2000
                     })
                 .addPage()
                      .addComponent({
                         width:500,
                         height :124,
+                         center:true,
+                         text:'教育背景',
                         css:{
                             position:'absolute',
                             top:0,
-
+                            lineHeight:'46px',
+                            fontSize:'36px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'#f40',
                             opacity:0,
-                            backgroundImage:'url(./src/img/mind.png)'
                         },
                         animateIn:{
                             top:60,
@@ -124,7 +159,7 @@ import ManageObj from './Manage.js';
                         width:500,
                         height :50,
                         center:true,
-                        text:'用实力证明自己！',
+                        text:'哈尔滨理工大学',
                         css:{
                             position:'absolute',
                             top:0,
@@ -143,12 +178,37 @@ import ManageObj from './Manage.js';
                             top:0,
                             opacity:0
                         },
-                        delay:600
+                        delay:500
+                    })
+                     .addComponent({
+                          width:500,
+                          height :50,
+                          center:true,
+                          text:'...自动化专业',
+                          css:{
+                              position:'absolute',
+                              top:0,
+                              opacity:0,
+                              lineHeight:'25px',
+                              fontSize:'25px',
+                              textAlign:'center',
+                              fontWeight:'900',
+                              color:'#f40'
+                          },
+                          animateIn:{
+                              top:190,
+                              opacity:1
+                          },
+                          animateOut:{
+                              top:0,
+                              opacity:0
+                          },
+                          delay:1500
                     })
                      .addComponent({
                         width:522,
                         height :300,
-                        text:'说点什么呢，不知道啊，随便说点吧，看到这个的老师辛苦了，谢谢老师尊重我，万分感谢，现在技术还很稚嫩，我会努力的！！！',
+                        text:'虽然专业看起来更贴近于下车间，调机械，可我有颗不安分的心，所以自学了web前端，想通过自己的努力找到自己满意的工作！',
                         center:true,
                         css:{
                             position:'absolute',
@@ -162,14 +222,14 @@ import ManageObj from './Manage.js';
                             fontWeight:'900'
                         },
                         animateIn:{
-                            bottom:240,
+                            bottom:220,
                             opacity:1
                         },
                         animateOut:{
                             bottom:0,
                             opacity:0
                         },
-                        delay:1100
+                        delay:2000
                     })
                      .addComponent({
                         width:516,
@@ -179,27 +239,311 @@ import ManageObj from './Manage.js';
                             position:'absolute',
                             bottom:-10,
                             opacity:0,
-                            backgroundImage:'url(./src/img/people.png)'
+                            backgroundImage:'url(./src/img/child.jpg)'
                         },
                         animateIn:{
-                            bottom:20,
+                            bottom:40,
                             opacity:1
                         },
                         animateOut:{
                             bottom:-10,
                             opacity:0
                         },
+                        delay:2000
+                    })
+                .addPage()
+                    .addComponent({
+                          width:500,
+                          height :124,
+                          center:true,
+                          text:'工作经验',
+                          css:{
+                              position:'absolute',
+                              top:0,
+                              lineHeight:'46px',
+                              fontSize:'36px',
+                              textAlign:'center',
+                              fontWeight:'900',
+                              color:'#f40',
+                              opacity:0,
+                          },
+                          animateIn:{
+                              top:60,
+                              opacity:1
+                          },
+                          animateOut:{
+                              top:0,
+                              opacity:0
+                          },
+                          delay:200
+                    })
+                    .addComponent({
+                          width:640,
+                          height :50,
+                          center:true,
+                          text:'2017.1-2017.3 百度糯米',
+                          css:{
+                              position:'absolute',
+                              top:0,
+                              opacity:0,
+                              lineHeight:'23px',
+                              fontSize:'23px',
+                              textAlign:'center',
+                              fontWeight:'900',
+                              color:'#f40'
+                          },
+                          animateIn:{
+                              top:150,
+                              opacity:1
+                          },
+                          animateOut:{
+                              top:0,
+                              opacity:0
+                          },
+                          delay:600
+                    })
+                    .addComponent({
+                      width:640,
+                      height :50,
+                      center:true,
+                      text:'2017.3-2017.6 百度AI平台部',
+                      css:{
+                          position:'absolute',
+                          top:0,
+                          opacity:0,
+                          lineHeight:'23px',
+                          fontSize:'23px',
+                          textAlign:'center',
+                          fontWeight:'900',
+                          color:'#f40'
+                      },
+                      animateIn:{
+                          top:190,
+                          opacity:1
+                      },
+                      animateOut:{
+                          top:0,
+                          opacity:0
+                      },
+                      delay:1000
+                    })
+                    .addComponent({
+                        width:700,
+                        height :60,
+                        center:true,
+                        text:'半年实习经历，我收获颇丰！',
+                        css:{
+                            position:'absolute',
+                            bottom:0,
+                            opacity:0,
+                            lineHeight:'25px',
+                            fontSize:'25px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'rgb(255,255,150)'
+                        },
+                        animateIn:{
+                            bottom:maxHeight/2,
+                            opacity:1
+                        },
+                        animateOut:{
+                            bottom:0,
+                            opacity:0
+                        },
                         delay:1500
                     })
+                    .addComponent({
+                        name:'rotate',
+                      css:{
+                          position:'absolute',
+                          bottom:150,
+                          left:'50%',
+                          transform:'translateX(-50%)',
+                          width:0,
+                          height :0,
+                          opacity:0,
+                          backgroundImage:'url(./src/img/people.jpeg)'
+                      },
+                      animateIn:{
+                          width:300,
+                          height :220,
+                          bottom:40,
+                          opacity:1
+                      },
+                      animateOut:{
+                          width:0,
+                          height :0,
+                          bottom:150,
+                          opacity:0
+                      },
+                      delay:1500
+                    })
+                .addPage()
+                      .addComponent({
+                          width:500,
+                          height :124,
+                          center:true,
+                          text:'项目经历',
+                          css:{
+                              position:'absolute',
+                              top:0,
+                              lineHeight:'46px',
+                              fontSize:'36px',
+                              textAlign:'center',
+                              fontWeight:'900',
+                              color:'#f40',
+                              opacity:0,
+                          },
+                          animateIn:{
+                              top:60,
+                              opacity:1
+                          },
+                          animateOut:{
+                              top:0,
+                              opacity:0
+                          },
+                          delay:200
+                      })
+                      .addComponent({
+                          type:'text',
+                          width:640,
+                          center:true,
+                          css:{
+                              position:'absolute',
+                              top:'150px',
+                              left:0,
+                              opacity:0,
+                              fontWeight:900
+                          },
+                          animateIn:{
+                              left:'50%',
+                              opacity:1
+                          },
+                          animateOut:{
+                              left:0,
+                              opacity:0
+                          },
+                          data:[
+                              ['React写货物管理信息（后用vue改写）'],
+                              ['用ajax获取数据，可根据输入关键字来改变现实的货物信息，有无存货颜色不同，可点击按钮只显示有存货的货物']
+                          ],
+                          delay:500
+                      })
+                      .addComponent({
+                          type:'text',
+                          width:640,
+                          center:true,
+                          css:{
+                              position:'absolute',
+                              top:'220px',
+                              left:0,
+                              opacity:0,
+                              fontWeight:900
+                          },
+                          animateIn:{
+                              left:'50%',
+                              opacity:1
+                          },
+                          animateOut:{
+                              left:0,
+                              opacity:0
+                          },
+                          data:[
+                              ['H5,CSS3写音乐播放器'],
+                              ['配合 zepto 组件，用 gulp 打包，可以实现音乐的播放，暂停，切换，列表中的功能点击播放，高斯模糊图片作为背景，拖拽进度条进行播放和收藏的功能。']
+                          ],
+                          delay:700
+                      })
+                      .addComponent({
+                          type:'text',
+                          width:640,
+                          center:true,
+                          css:{
+                              position:'absolute',
+                              top:'304px',
+                              left:0,
+                              opacity:0,
+                              fontWeight:900
+                          },
+                          animateIn:{
+                              left:'50%',
+                              opacity:1
+                          },
+                          animateOut:{
+                              left:0,
+                              opacity:0
+                          },
+                          data:[
+                              ['用原生 js 来编写计算器，扫雷小游戏，轮播图等'],
+                              ['计算器:实现加减乘除，清除，回退，带括号运算的功能。 扫雷:动态生成棋盘，实现扫雷游戏各个功能。 轮播图:正常样式和层叠样式两种。']
+                          ],
+                          delay:900
+                      })
+                      .addComponent({
+                          type:'text',
+                          width:640,
+                          center:true,
+                          css:{
+                              position:'absolute',
+                              top:'392px',
+                              left:0,
+                              opacity:0,
+                              fontWeight:900
+                          },
+                          animateIn:{
+                              left:'50%',
+                              opacity:1
+                          },
+                          animateOut:{
+                              left:0,
+                              opacity:0
+                          },
+                          data:[
+                              ['用 vue 仿写饿了么移动端页面'],
+                              ['用 vue router 实现单页面跳转，vue resource 获取数据，用假数据进行 mock']
+                          ],
+                          delay:1100
+                      })
+                      .addComponent({
+                          type:'text',
+                          width:640,
+                          center:true,
+                          css:{
+                              position:'absolute',
+                              top:'460px',
+                              left:0,
+                              opacity:0,
+                              fontWeight:900
+                          },
+                          animateIn:{
+                              left:'50%',
+                              opacity:1
+                          },
+                          animateOut:{
+                              left:0,
+                              opacity:0
+                          },
+                          data:[
+                              ['用 js 编写日历'],
+                              ['动态生成日历表格和其中内容，可实现左右切换月份的功能，过去的日子为一种颜色 ，将来的日子为另一种颜色。']
+                          ],
+                          delay:1300
+                      })
                 .addPage()
                      .addComponent({
                         width:500,
-                        height: 124,
+                        height :124,
+                        center:true,
+                        text:'掌握技能',
                         css:{
                             position:'absolute',
                             top:0,
+                            lineHeight:'46px',
+                            fontSize:'36px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'#f40',
                             opacity:0,
-                            backgroundImage:'url(./src/img/bar.png)'
                         },
                         animateIn:{
                             top:60,
@@ -210,32 +554,7 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                         delay:200
-                    })
-                     .addComponent({
-                        width:428,
-                        height :92,
-                        center:true,
-                        text:'训练内容柱状图',
-                        css:{
-                            position:'absolute',
-                            top:0,
-                            opacity:0,
-                            lineHeight:'25px',
-                            textAlign:'center',
-                            fontWeight:900,
-                            fontSize:'25px',
-                            color:'#f40'
-                        },
-                        animateIn:{
-                            top:200,
-                            opacity:1
-                        },
-                        animateOut:{
-                            top:0,
-                            opacity:0
-                        },
-                        delay:600
-                    })
+                     })
                      .addComponent({
                          type:'Bar',
                         width:500,
@@ -248,7 +567,7 @@ import ManageObj from './Manage.js';
                             fontWeight:900
                         },
                         animateIn:{
-                            bottom:200,
+                            bottom:maxHeight/2,
                             opacity:1
                         },
                         animateOut:{
@@ -256,23 +575,33 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                           data:[
-                        ['颜值',0.3,'red'],
-                        ['身高',0.1,'blue'],
-                        ['性格',0.2,'pink'],
-                        ['爱好',0.2,'green'],
-                        ['实力',0.2,'black']
-                        ],
-                        delay:1000
-                    })
+                              ['html',.9,'red'],
+                              ['js',.8,'orange'],
+                              ['css',.9,'yellow'],
+                              ['jquery',.7,'green'],
+                              ['h5',.6,'blue'],
+                              ['es6',.7,'skyBlue'],
+                              ['vue',.7,'purple'],
+                              ['react',.6,'pink'],
+                              ['node.js',.6,'black']
+                          ],
+                         delay:1000
+                     })
                 .addPage()
                      .addComponent({
                         width:500,
-                        height: 126,
+                        height :124,
+                        center:true,
+                        text:'掌握技能',
                         css:{
                             position:'absolute',
                             top:0,
+                            lineHeight:'46px',
+                            fontSize:'36px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'#f40',
                             opacity:0,
-                            backgroundImage:'url(./src/img/poyline.png)'
                         },
                         animateIn:{
                             top:60,
@@ -283,12 +612,12 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                         delay:200
-                    })
+                     })
                      .addComponent({
                         width:428,
                         height :92,
                         center:true,
-                        text:'训练内容折线图',
+                        text:'用折线图表示',
                         css:{
                             position:'absolute',
                             top:0,
@@ -300,7 +629,7 @@ import ManageObj from './Manage.js';
                             color:'#f40'
                         },
                         animateIn:{
-                            top:200,
+                            top:maxHeight/4,
                             opacity:1
                         },
                         animateOut:{
@@ -311,7 +640,7 @@ import ManageObj from './Manage.js';
                     })
                      .addComponent({
                          type:'Poly',
-                        width:500,
+                        width:640,
                         height :500,
                         center:true,
                         css:{
@@ -329,23 +658,33 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                           data:[
-                        ['颜值',0.3,'red'],
-                        ['身高',0.1,'blue'],
-                        ['性格',0.2,'pink'],
-                        ['爱好',0.3,'green'],
-                        ['实力',0.1,'black']
+                              ['html',.9,'red'],
+                              ['js',.8,'orange'],
+                              ['css',.9,'yellow'],
+                              ['node',.6,'black'],
+                              ['h5',.6,'blue'],
+                              ['es6',.7,'skyBlue'],
+                              ['vue',.7,'purple'],
+                              ['react',.6,'pink'],
+                              ['jq',.7,'green'],
                         ],
                         delay:1000
                     })
                 .addPage()
-                    .addComponent({
+                     .addComponent({
                         width:500,
-                        height: 126,
+                        height :124,
+                        center:true,
+                        text:'平时时间利用',
                         css:{
                             position:'absolute',
                             top:0,
+                            lineHeight:'46px',
+                            fontSize:'36px',
+                            textAlign:'center',
+                            fontWeight:'900',
+                            color:'#f40',
                             opacity:0,
-                            backgroundImage:'url(./src/img/pie.png)'
                         },
                         animateIn:{
                             top:60,
@@ -356,32 +695,7 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                         delay:200
-                    })
-                     .addComponent({
-                        width:428,
-                        height :92,
-                        center:true,
-                        text:'训练内容饼图',
-                        css:{
-                            position:'absolute',
-                            top:0,
-                            opacity:0,
-                            lineHeight:'25px',
-                            textAlign:'center',
-                            fontWeight:900,
-                            fontSize:'25px',
-                            color:'#f40'
-                        },
-                        animateIn:{
-                            top:200,
-                            opacity:1
-                        },
-                        animateOut:{
-                            top:0,
-                            opacity:0
-                        },
-                        delay:600
-                    })
+                     })
                      .addComponent({
                          type:'pie',
                         width:500,
@@ -394,7 +708,7 @@ import ManageObj from './Manage.js';
                             fontWeight:900
                         },
                         animateIn:{
-                            bottom:100,
+                            bottom:maxHeight/4,
                             opacity:1
                         },
                         animateOut:{
@@ -402,11 +716,10 @@ import ManageObj from './Manage.js';
                             opacity:0
                         },
                           data:[
-                        ['颜值',0.3,'red'],
-                        ['身高',0.1,'blue'],
-                        ['性格',0.2,'pink'],
-                        ['实力',0.3,'green'],
-                        ['爱好',0.1,'yellow']
+                        ['学习',0.6,'red'],
+                        ['聚会',0.1,'lightGreen'],
+                        ['户外运动',0.2,'pink'],
+                        ['看书',0.1,'yellow']
                         ],
                         delay:1000
                     })
@@ -438,76 +751,80 @@ import ManageObj from './Manage.js';
                         delay:200
                     })
                     .addComponent({
-                        width:128,
-                        height :120,
-                        css:{
-                            position:'absolute',
-                            top:100,
-                            right:50,
-                            opacity:0,
-                            backgroundImage:'url(./src/img/share.png)'
-                        },
-                        animateIn:{
-                            top:0,
-                            right:0,
-                            opacity:1
-                        },
-                        animateOut:{
-                            top:100,
-                            right:50,
-                            opacity:0
-                        },
-                        delay:400
-                    })
-                    .addComponent({
-                        width:500,
-                        height :50,
+                        width:400,
+                        height :60,
                         center:true,
-                        name:'shake',
-                        text:'谢谢老师观看',
+                        name:'strgth',
+                        text:'周鑫',
                         css:{
                             position:'absolute',
-                            top:0,
-                            opacity:0,
-                            lineHeight:'35px',
-                            fontSize:'35px',
+                            top:'220px',
+                            left:0,
+                            lineHeight:'30px',
+                            fontSize:'30px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#f40'
+                            color:'#f40',
+                            opacity:0
                         },
                         animateIn:{
-                            top:200,
+                            left:'50%',
                             opacity:1
                         },
                         animateOut:{
-                            top:0,
+                            left:0,
                             opacity:0
                         },
-                        delay:600
+                        delay:1000
                     })
                     .addComponent({
-                        width:428,
-                        height :92,
+                      width:400,
+                      height :60,
+                      center:true,
+                        name:'strgth',
+                      text:'前端工程师',
+                      css:{
+                          position:'absolute',
+                          top:'260px',
+                          left:0,
+                          lineHeight:'30px',
+                          fontSize:'30px',
+                          textAlign:'center',
+                          fontWeight:'900',
+                          color:'#f40',
+                          opacity:0
+                      },
+                      animateIn:{
+                          left:'50%',
+                          opacity:1
+                      },
+                      animateOut:{
+                          left:0,
+                          opacity:0
+                      },
+                      delay:1000
+                    })
+                    .addComponent({
+                        width:370,
+                        height :96,
                         center:true,
-                        text:'一起来吧！！！',
+                        text:'非计算机相关专业，但对编程充满热爱！',
                         css:{
                             position:'absolute',
-                            top:0,
-                            opacity:0,
-                            lineHeight:'35px',
+                            bottom:200,
+                            lineHeight:'25px',
+                            fontSize:'20px',
                             textAlign:'center',
                             fontWeight:'900',
-                            fontSize:'25px',
-                            color:'#f40'
+                            color:'rgba(250,250,150)',
+                            opacity:0,
                         },
                         animateIn:{
-                            top:400,
                             opacity:1
                         },
                         animateOut:{
-                            top:0,
                             opacity:0
                         },
-                        delay:800
+                        delay:2000
                     })
             .load();

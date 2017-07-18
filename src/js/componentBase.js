@@ -4,7 +4,6 @@ let ComponentFactory=(config)=>{
     let Id=(Math.random()+'').replace('.','-');
     Component.attr('id',Id);
 
-config.name&&Component.addClass(config.name);
 config.width && Component.css('width',config.width/2); 
 config.height && Component.css('height',config.height/2);
 config.text && Component.text(config.text);
@@ -15,18 +14,20 @@ for (var eventType in config.event){
 }
 Component.on('cpLeave',(e)=>{
     setTimeout(()=>{
-         Component.addClass('leaveComponent');
+        Component.addClass('leaveComponent');
     Component.removeClass('loadComponent');
-    config.animateOut && Component.animate(config.animateOut);
+    config.animateOut && Component.animate(config.animateOut,800);
+        config.name&&Component.removeClass(config.name);
     },config.delay||0)
-})
+});
 Component.on('cpLoad',(e)=>{
     setTimeout(()=>{
         Component.removeClass('leaveComponent');
     Component.addClass('loadComponent');
-    config.animateIn && Component.animate(config.animateIn);
+    config.animateIn && Component.animate(config.animateIn,800);
+    config.name&&Component.addClass(config.name);
     },config.delay||0)
-})
+});
     return Component;
-}
+};
 export default ComponentFactory;

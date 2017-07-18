@@ -3,6 +3,7 @@ import ComponentFactory from './componentBase.js';
 import ComponentBarFactory from './componentBar.js';
 import ComponentPolyFactory from './ComponentPoly.js';
 import ComponentPieFactory from './ComponentPie.js';
+import ComponentTextFactory from './ComponentText.js';
 let ManageObj={
     init(name){
         this.oContainer=$('<div/>').addClass(name);
@@ -27,6 +28,9 @@ let ManageObj={
             case 'Bar':
             Component=ComponentBarFactory(config);
             break;
+            case 'text':
+            Component=ComponentTextFactory(config);
+            break;
             case 'base':
             default:
             Component=ComponentFactory(config);
@@ -37,7 +41,7 @@ let ManageObj={
     addBottomComponent(){
         this.addComponent({
             height:40,
-            text:'哈哈哈哈哈哈哈哈',
+            text:'周鑫  邮箱：18845630689@163.com',
             css:{
                 position:'absolute',
                 right:0,
@@ -47,7 +51,8 @@ let ManageObj={
                 lineHeight:'20px',
                 color:'#fff',
                 background:'#000',
-                opacity:0
+                opacity:0,
+                'z-index':9
             },
             animateIn:{
                 opacity:0.5
@@ -76,5 +81,5 @@ let ManageObj={
         })
         $('.section').eq(0).trigger('onLoad');
     }
-}
+};
 export default ManageObj;
