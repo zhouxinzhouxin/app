@@ -733,7 +733,7 @@
 	    text: '周鑫',
 	    css: {
 	        position: 'absolute',
-	        top: '220px',
+	        top: maxHeight / 4,
 	        left: 0,
 	        lineHeight: '30px',
 	        fontSize: '30px',
@@ -759,7 +759,7 @@
 	    text: '前端工程师',
 	    css: {
 	        position: 'absolute',
-	        top: '260px',
+	        top: maxHeight / 4 + 40,
 	        left: 0,
 	        lineHeight: '30px',
 	        fontSize: '30px',
@@ -784,7 +784,7 @@
 	    text: '非计算机相关专业，但对编程充满热爱！',
 	    css: {
 	        position: 'absolute',
-	        bottom: 200,
+	        bottom: maxHeight / 3,
 	        lineHeight: '25px',
 	        fontSize: '20px',
 	        textAlign: 'center',
