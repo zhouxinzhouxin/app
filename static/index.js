@@ -743,7 +743,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        left: '50%',
+	        left: '48%',
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -769,7 +769,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        left: '50%',
+	        left: '48%',
 	        opacity: 1
 	    },
 	    animateOut: {

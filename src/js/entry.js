@@ -768,7 +768,7 @@ let maxHeight = window.innerHeight;
                             opacity:0
                         },
                         animateIn:{
-                            left:'50%',
+                            left:'48%',
                             opacity:1
                         },
                         animateOut:{
@@ -795,7 +795,7 @@ let maxHeight = window.innerHeight;
                           opacity:0
                       },
                       animateIn:{
-                          left:'50%',
+                          left:'48%',
                           opacity:1
                       },
                       animateOut:{
