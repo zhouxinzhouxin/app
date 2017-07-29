@@ -11,7 +11,7 @@ module.exports = {
         loaders: [
             {test: /.js$/, loader: 'babel', query: { presets: ['es2015'] }, exclude: /node_modules/},
             {test: /.less$/, loader: 'style!css!less'},
-            {test: /.(jpg|png)$/, loader: 'url?limit=8192'}
+            {test: /.(jpg|png|gif)$/, loader: 'url?limit=8192'}
         ]
     },
     plugins: [providePlugin]

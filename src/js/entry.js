@@ -18,12 +18,12 @@ let maxHeight = window.innerHeight;
                             fontSize:'46px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'rgb(250,250,150)',
+                            color:'rgb(255,255,200)',
                             opacity:0
                         },
                         animateIn:{
                             top:100,
-                            opacity:1
+                            opacity:0.6
                         },
                         animateOut:{
                             top:-10,
@@ -35,22 +35,21 @@ let maxHeight = window.innerHeight;
                         width:400,
                         height :60,
                         center:true,
-                        name:'strgth',
                         text:'周鑫',
                         css:{
                             position:'absolute',
                             top:'220px',
                             left:0,
-                            lineHeight:'30px',
-                            fontSize:'30px',
+                            lineHeight:'45px',
+                            fontSize:'38px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'rgb(250,250,150)',
+                            color:'rgb(255,255,200)',
                             opacity:0
                         },
                         animateIn:{
                             left:'50%',
-                            opacity:1
+                            opacity:0.6
                         },
                         animateOut:{
                             left:0,
@@ -62,72 +61,27 @@ let maxHeight = window.innerHeight;
                       width:400,
                       height :60,
                       center:true,
-                        name:'strgth',
                       text:'前端工程师',
                       css:{
                           position:'absolute',
                           top:260,
                           left:0,
-                          lineHeight:'30px',
-                          fontSize:'30px',
+                          lineHeight:'45px',
+                          fontSize:'38px',
                           textAlign:'center',
                           fontWeight:'900',
-                          color:'rgb(250,250,150)',
+                          color:'rgb(255,255,200)',
                           opacity:0
                       },
                       animateIn:{
                           left:'50%',
-                          opacity:1
+                          opacity:0.6
                       },
                       animateOut:{
                           left:0,
                           opacity:0
                       },
                       delay:1000
-                    })
-                    .addComponent({
-                        width:346,
-                        height :494,
-                        css:{
-                            position:'absolute',
-                            bottom:-20,
-                            left:-20,
-                            opacity:0,
-                            backgroundImage:'url(./src/img/left.png)'
-                        },
-                        animateIn:{
-                            left:0,
-                            bottom:0,
-                            opacity:1
-                        },
-                        animateOut:{
-                             bottom:-20,
-                            left:-20,
-                            opacity:0
-                        },
-                        delay:1500
-                    })
-                    .addComponent({
-                        width:324,
-                        height :450,
-                        css:{
-                            position:'absolute',
-                            bottom:-20,
-                            right:-20,
-                            opacity:0,
-                            backgroundImage:'url(./src/img/right.png)'
-                        },
-                        animateIn:{
-                            right:0,
-                            bottom:0,
-                            opacity:1
-                        },
-                        animateOut:{
-                             bottom:-20,
-                            right:-20,
-                            opacity:0
-                        },
-                        delay:2000
                     })
                 .addPage()
                      .addComponent({
@@ -142,7 +96,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'36px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#f40',
+                            color:'rgb(255,255,200)',
                             opacity:0,
                         },
                         animateIn:{
@@ -168,7 +122,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'25px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#f40'
+                            color:'rgb(255,255,200)'
                         },
                         animateIn:{
                             top:150,
@@ -193,7 +147,7 @@ let maxHeight = window.innerHeight;
                               fontSize:'25px',
                               textAlign:'center',
                               fontWeight:'900',
-                              color:'#f40'
+                              color:'rgb(255,255,200)'
                           },
                           animateIn:{
                               top:190,
@@ -264,7 +218,7 @@ let maxHeight = window.innerHeight;
                               fontSize:'36px',
                               textAlign:'center',
                               fontWeight:'900',
-                              color:'#f40',
+                              color:'rgb(255,255,200)',
                               opacity:0,
                           },
                           animateIn:{
@@ -290,7 +244,7 @@ let maxHeight = window.innerHeight;
                               fontSize:'23px',
                               textAlign:'center',
                               fontWeight:'900',
-                              color:'#f40'
+                              color:'rgb(255,255,200)'
                           },
                           animateIn:{
                               top:150,
@@ -315,7 +269,7 @@ let maxHeight = window.innerHeight;
                           fontSize:'23px',
                           textAlign:'center',
                           fontWeight:'900',
-                          color:'#f40'
+                          color:'rgb(255,255,200)'
                       },
                       animateIn:{
                           top:190,
@@ -340,7 +294,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'25px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'rgb(255,255,150)'
+                            color:'rgb(255,255,200)'
                         },
                         animateIn:{
                             bottom:maxHeight/2,
@@ -391,7 +345,7 @@ let maxHeight = window.innerHeight;
                               fontSize:'36px',
                               textAlign:'center',
                               fontWeight:'900',
-                              color:'#f40',
+                              color:'rgb(255,255,200)',
                               opacity:0,
                           },
                           animateIn:{
@@ -542,7 +496,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'36px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#f40',
+                            color:'rgb(255,255,200)',
                             opacity:0,
                         },
                         animateIn:{
@@ -564,6 +518,7 @@ let maxHeight = window.innerHeight;
                             position:'absolute',
                             bottom:0,
                             opacity:0,
+                            color:(255,255,200),
                             fontWeight:900
                         },
                         animateIn:{
@@ -600,7 +555,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'36px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#f40',
+                            color:'rgb(255,255,200)',
                             opacity:0,
                         },
                         animateIn:{
@@ -626,7 +581,7 @@ let maxHeight = window.innerHeight;
                             textAlign:'center',
                             fontWeight:900,
                             fontSize:'25px',
-                            color:'#f40'
+                            color:'rgb(255,255,200)'
                         },
                         animateIn:{
                             top:maxHeight/4,
@@ -683,7 +638,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'36px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#f40',
+                            color:'rgb(255,255,200)',
                             opacity:0,
                         },
                         animateIn:{
@@ -709,7 +664,7 @@ let maxHeight = window.innerHeight;
                         },
                         animateIn:{
                             bottom:maxHeight/4,
-                            opacity:1
+                            opacity:.6
                         },
                         animateOut:{
                             bottom:0,
@@ -732,6 +687,7 @@ let maxHeight = window.innerHeight;
                         css:{
                             position:'absolute',
                             top:0,
+                            color:'rgb(255,255,200)',
                             opacity:0,
                             backgroundImage:'url(./src/img/back.png)'
                         },
@@ -764,7 +720,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'30px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'#f40',
+                            color:'rgb(255,255,200)',
                             opacity:0
                         },
                         animateIn:{
@@ -791,7 +747,7 @@ let maxHeight = window.innerHeight;
                           fontSize:'30px',
                           textAlign:'center',
                           fontWeight:'900',
-                          color:'#f40',
+                          color:'rgb(255,255,200)',
                           opacity:0
                       },
                       animateIn:{
@@ -816,7 +772,7 @@ let maxHeight = window.innerHeight;
                             fontSize:'20px',
                             textAlign:'center',
                             fontWeight:'900',
-                            color:'rgba(250,250,150)',
+                            color:'rgba(250,250,200)',
                             opacity:0,
                         },
                         animateIn:{

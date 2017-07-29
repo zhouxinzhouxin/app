@@ -57,7 +57,7 @@ let ComponentPieFactory=(config)=>{
     let draw=(per)=>{
         ctx.clearRect(0,0,w,h);
         ctx.beginPath();
-        ctx.fillStyle='yellow';
+        ctx.fillStyle='rgb(255,255,200)';
         ctx.moveTo(r,r);
         ctx.arc(r,r,r+2,sAngle,sAngle-aAngle*per,1);
         ctx.fill();

@@ -12,7 +12,7 @@ let ComponentPolyFactory=(config)=>{
     Component.append(Canvas);
     ctx.beginPath();
     ctx.lineWidth=1;
-    ctx.strokeStyle='#f00';
+    ctx.strokeStyle='rgb(255,255,200)';
     var step=10;
     for(let i=0;i<step+1;i++){
         var y=(Canvash/step)*i;
@@ -57,7 +57,7 @@ let ComponentPolyFactory=(config)=>{
             ctxTop.lineTo(colW*data.length,config.height);
             ctxTop.closePath();
             ctxTop.stroke();
-            ctxTop.fillStyle='rgba(255,0,0,0.37)';
+            ctxTop.fillStyle='rgba(255,255,150,0.5)';
             ctxTop.fill();
             // 写文本
             data.forEach((ele,index)=>{

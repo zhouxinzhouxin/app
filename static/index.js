@@ -69,12 +69,12 @@
 	        fontSize: '46px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: 'rgb(250,250,150)',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
 	        top: 100,
-	        opacity: 1
+	        opacity: 0.6
 	    },
 	    animateOut: {
 	        top: -10,
@@ -85,22 +85,21 @@
 	    width: 400,
 	    height: 60,
 	    center: true,
-	    name: 'strgth',
 	    text: '周鑫',
 	    css: {
 	        position: 'absolute',
 	        top: '220px',
 	        left: 0,
-	        lineHeight: '30px',
-	        fontSize: '30px',
+	        lineHeight: '45px',
+	        fontSize: '38px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: 'rgb(250,250,150)',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
 	        left: '50%',
-	        opacity: 1
+	        opacity: 0.6
 	    },
 	    animateOut: {
 	        left: 0,
@@ -111,70 +110,27 @@
 	    width: 400,
 	    height: 60,
 	    center: true,
-	    name: 'strgth',
 	    text: '前端工程师',
 	    css: {
 	        position: 'absolute',
 	        top: 260,
 	        left: 0,
-	        lineHeight: '30px',
-	        fontSize: '30px',
+	        lineHeight: '45px',
+	        fontSize: '38px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: 'rgb(250,250,150)',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
 	        left: '50%',
-	        opacity: 1
+	        opacity: 0.6
 	    },
 	    animateOut: {
 	        left: 0,
 	        opacity: 0
 	    },
 	    delay: 1000
-	}).addComponent({
-	    width: 346,
-	    height: 494,
-	    css: {
-	        position: 'absolute',
-	        bottom: -20,
-	        left: -20,
-	        opacity: 0,
-	        backgroundImage: 'url(./src/img/left.png)'
-	    },
-	    animateIn: {
-	        left: 0,
-	        bottom: 0,
-	        opacity: 1
-	    },
-	    animateOut: {
-	        bottom: -20,
-	        left: -20,
-	        opacity: 0
-	    },
-	    delay: 1500
-	}).addComponent({
-	    width: 324,
-	    height: 450,
-	    css: {
-	        position: 'absolute',
-	        bottom: -20,
-	        right: -20,
-	        opacity: 0,
-	        backgroundImage: 'url(./src/img/right.png)'
-	    },
-	    animateIn: {
-	        right: 0,
-	        bottom: 0,
-	        opacity: 1
-	    },
-	    animateOut: {
-	        bottom: -20,
-	        right: -20,
-	        opacity: 0
-	    },
-	    delay: 2000
 	}).addPage().addComponent({
 	    width: 500,
 	    height: 124,
@@ -187,7 +143,7 @@
 	        fontSize: '36px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -212,7 +168,7 @@
 	        fontSize: '25px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40'
+	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
 	        top: 150,
@@ -236,7 +192,7 @@
 	        fontSize: '25px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40'
+	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
 	        top: 190,
@@ -303,7 +259,7 @@
 	        fontSize: '36px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -328,7 +284,7 @@
 	        fontSize: '23px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40'
+	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
 	        top: 150,
@@ -352,7 +308,7 @@
 	        fontSize: '23px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40'
+	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
 	        top: 190,
@@ -376,7 +332,7 @@
 	        fontSize: '25px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: 'rgb(255,255,150)'
+	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
 	        bottom: maxHeight / 2,
@@ -424,7 +380,7 @@
 	        fontSize: '36px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -553,7 +509,7 @@
 	        fontSize: '36px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -574,6 +530,7 @@
 	        position: 'absolute',
 	        bottom: 0,
 	        opacity: 0,
+	        color: (255, 255, 200),
 	        fontWeight: 900
 	    },
 	    animateIn: {
@@ -598,7 +555,7 @@
 	        fontSize: '36px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -623,7 +580,7 @@
 	        textAlign: 'center',
 	        fontWeight: 900,
 	        fontSize: '25px',
-	        color: '#f40'
+	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
 	        top: maxHeight / 4,
@@ -667,7 +624,7 @@
 	        fontSize: '36px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -692,7 +649,7 @@
 	    },
 	    animateIn: {
 	        bottom: maxHeight / 4,
-	        opacity: 1
+	        opacity: .6
 	    },
 	    animateOut: {
 	        bottom: 0,
@@ -708,6 +665,7 @@
 	    css: {
 	        position: 'absolute',
 	        top: 0,
+	        color: 'rgb(255,255,200)',
 	        opacity: 0,
 	        backgroundImage: 'url(./src/img/back.png)'
 	    },
@@ -739,7 +697,7 @@
 	        fontSize: '30px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -765,7 +723,7 @@
 	        fontSize: '30px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: '#f40',
+	        color: 'rgb(255,255,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -789,7 +747,7 @@
 	        fontSize: '20px',
 	        textAlign: 'center',
 	        fontWeight: '900',
-	        color: 'rgba(250,250,150)',
+	        color: 'rgba(250,250,200)',
 	        opacity: 0
 	    },
 	    animateIn: {
@@ -13093,7 +13051,7 @@
 
 
 	// module
-	exports.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n}\n.section {\n  position: relative;\n}\n.section {\n  background: url(" + __webpack_require__(8) + ");\n}\n.section.index {\n  background: url(" + __webpack_require__(9) + ");\n}\n", ""]);
+	exports.push([module.id, "* {\n  padding: 0;\n  margin: 0;\n}\n.section {\n  position: relative;\n}\n.section {\n  background: url(" + __webpack_require__(8) + ");\n  background-size: 120% 100%;\n  background-position: 50%;\n  background-repeat: no-repeat;\n}\n.section.index {\n  background: url(" + __webpack_require__(9) + ");\n  background-size: 100% 120%;\n  background-repeat: no-repeat;\n}\n", ""]);
 
 	// exports
 
@@ -13158,13 +13116,13 @@
 /* 8 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "6c9124db8847209869e22bf4f3dc2a39.png";
+	module.exports = __webpack_require__.p + "d81dc0a707ff1e1806645e4573cb054c.jpg";
 
 /***/ },
 /* 9 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__.p + "fb3e3d822a29cd86fa72c75bf4ce1d6d.png";
+	module.exports = __webpack_require__.p + "2c4be8513c0aaeb4d1f89433fe94c218.gif";
 
 /***/ },
 /* 10 */
@@ -13585,7 +13543,7 @@
 
 
 	// module
-	exports.push([module.id, ".ComponentBar .row {\n  height: 25px;\n  margin-bottom: 20px;\n}\n.ComponentBar .row .name {\n  float: left;\n  width: 80px;\n  height: 25px;\n  line-height: 25px;\n  text-align: center;\n}\n.ComponentBar .row .load {\n  float: left;\n  height: 20px;\n  margin-left: 5px;\n}\n.ComponentBar .row .load .loadInner {\n  width: 0%;\n  height: 100%;\n  border-radius: 8px;\n  transition: all 1s ease-in 0.8s;\n}\n.ComponentBar .row .per {\n  float: left;\n  width: 20px;\n  height: 25px;\n  text-align: center;\n  line-height: 25px;\n  padding-left: 10px;\n  opacity: 0;\n  transition: all 1s ease-out 1.8s;\n}\n.loadComponent .row .load .loadInner {\n  width: 100%;\n}\n.loadComponent .row .per {\n  opacity: 1;\n}\n.leaveComponent .row .load .loadInner {\n  width: 0%;\n}\n.leaveComponent .row .per {\n  opacity: 0;\n}\n", ""]);
+	exports.push([module.id, ".ComponentBar .row {\n  height: 25px;\n  color: #ffffc8;\n  margin-bottom: 20px;\n}\n.ComponentBar .row .name {\n  float: left;\n  width: 80px;\n  height: 25px;\n  line-height: 25px;\n  text-align: center;\n}\n.ComponentBar .row .load {\n  float: left;\n  height: 20px;\n  margin-left: 5px;\n}\n.ComponentBar .row .load .loadInner {\n  width: 0%;\n  height: 100%;\n  border-radius: 8px;\n  transition: all 1s ease-in 0.8s;\n}\n.ComponentBar .row .per {\n  float: left;\n  width: 20px;\n  height: 25px;\n  text-align: center;\n  line-height: 25px;\n  padding-left: 10px;\n  opacity: 0;\n  transition: all 1s ease-out 1.8s;\n}\n.loadComponent .row .load .loadInner {\n  width: 100%;\n}\n.loadComponent .row .per {\n  opacity: 1;\n}\n.leaveComponent .row .load .loadInner {\n  width: 0%;\n}\n.leaveComponent .row .per {\n  opacity: 0;\n}\n", ""]);
 
 	// exports
 
@@ -13620,7 +13578,7 @@
 	    Component.append(Canvas);
 	    ctx.beginPath();
 	    ctx.lineWidth = 1;
-	    ctx.strokeStyle = '#f00';
+	    ctx.strokeStyle = 'rgb(255,255,200)';
 	    var step = 10;
 	    for (var i = 0; i < step + 1; i++) {
 	        var y = Canvash / step * i;
@@ -13664,7 +13622,7 @@
 	        ctxTop.lineTo(colW * data.length, config.height);
 	        ctxTop.closePath();
 	        ctxTop.stroke();
-	        ctxTop.fillStyle = 'rgba(255,0,0,0.37)';
+	        ctxTop.fillStyle = 'rgba(255,255,150,0.5)';
 	        ctxTop.fill();
 	        // 写文本
 	        data.forEach(function (ele, index) {
@@ -13737,7 +13695,7 @@
 
 
 	// module
-	exports.push([module.id, ".ComponentPoly canvas {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n}\n.ComponentPoly .text {\n  transition: all 1s ease 1.2s;\n  opacity: 0;\n}\n.loadComponent .text {\n  opacity: 1;\n}\n.leaveComponent .text {\n  opacity: 0;\n}\n", ""]);
+	exports.push([module.id, ".ComponentPoly canvas {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n}\n.ComponentPoly .text {\n  transition: all 1s ease 1.2s;\n  color: #ffffc8;\n  opacity: 0;\n}\n.loadComponent .text {\n  opacity: 1;\n}\n.leaveComponent .text {\n  opacity: 0;\n}\n", ""]);
 
 	// exports
 
@@ -13829,7 +13787,7 @@
 	    var draw = function draw(per) {
 	        ctx.clearRect(0, 0, w, h);
 	        ctx.beginPath();
-	        ctx.fillStyle = 'yellow';
+	        ctx.fillStyle = 'rgb(255,255,200)';
 	        ctx.moveTo(r, r);
 	        ctx.arc(r, r, r + 2, sAngle, sAngle - aAngle * per, 1);
 	        ctx.fill();
@@ -13897,7 +13855,7 @@
 
 
 	// module
-	exports.push([module.id, ".ComponentPie canvas {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n.ComponentPie .text {\n  opacity: 0;\n  transition: all 1s ease 1.2s;\n}\n.loadComponent .text {\n  opacity: 1;\n}\n.leaveComponent .text {\n  opacity: 0;\n}\n", ""]);
+	exports.push([module.id, ".ComponentPie canvas {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n}\n.ComponentPie .text {\n  opacity: 0;\n  color: #ffffc8;\n  transition: all 1s ease 1.2s;\n}\n.loadComponent .text {\n  opacity: 1;\n}\n.leaveComponent .text {\n  opacity: 0;\n}\n", ""]);
 
 	// exports
 
@@ -13968,7 +13926,7 @@
 
 
 	// module
-	exports.push([module.id, ".ComponentText {\n  font-size: 12px;\n  color: #f40;\n}\n.ComponentText .text0 {\n  font-size: 14px;\n}\n.ComponentText .text1 {\n  margin-left: 20px;\n}\n", ""]);
+	exports.push([module.id, ".ComponentText {\n  font-size: 12px;\n  color: #ffffc8;\n}\n.ComponentText .text0 {\n  font-size: 14px;\n}\n.ComponentText .text1 {\n  margin-left: 20px;\n}\n", ""]);
 
 	// exports
 
