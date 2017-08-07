@@ -260,7 +260,7 @@ let maxHeight = window.innerHeight;
                       width:640,
                       height :50,
                       center:true,
-                      text:'2017.3-2017.6 百度AI平台部',
+                      text:'2017.3-至今 百度AI平台部',
                       css:{
                           position:'absolute',
                           top:0,
