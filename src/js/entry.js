@@ -176,7 +176,7 @@ let maxHeight = window.innerHeight;
                             fontWeight:'900'
                         },
                         animateIn:{
-                            bottom:220,
+                            bottom:maxHeight/3,
                             opacity:1
                         },
                         animateOut:{
@@ -364,7 +364,7 @@ let maxHeight = window.innerHeight;
                           center:true,
                           css:{
                               position:'absolute',
-                              top:'150px',
+                              top:'140px',
                               left:0,
                               opacity:0,
                               fontWeight:900
@@ -389,7 +389,7 @@ let maxHeight = window.innerHeight;
                           center:true,
                           css:{
                               position:'absolute',
-                              top:'220px',
+                              top:'210px',
                               left:0,
                               opacity:0,
                               fontWeight:900
@@ -404,7 +404,7 @@ let maxHeight = window.innerHeight;
                           },
                           data:[
                               ['H5,CSS3写音乐播放器'],
-                              ['配合 zepto 组件，用 gulp 打包，可以实现音乐的播放，暂停，切换，列表中的功能点击播放，高斯模糊图片作为背景，拖拽进度条进行播放和收藏的功能。']
+                              ['配合 zepto 组件，用 webpack 打包，可以实现音乐的播放，暂停，切换，列表中的功能点击播放，高斯模糊图片作为背景，拖拽进度条进行播放和收藏的功能。']
                           ],
                           delay:700
                       })
@@ -414,7 +414,7 @@ let maxHeight = window.innerHeight;
                           center:true,
                           css:{
                               position:'absolute',
-                              top:'304px',
+                              top:'294px',
                               left:0,
                               opacity:0,
                               fontWeight:900
@@ -439,7 +439,7 @@ let maxHeight = window.innerHeight;
                           center:true,
                           css:{
                               position:'absolute',
-                              top:'392px',
+                              top:'380px',
                               left:0,
                               opacity:0,
                               fontWeight:900
@@ -453,36 +453,38 @@ let maxHeight = window.innerHeight;
                               opacity:0
                           },
                           data:[
-                              ['用 vue 仿写饿了么移动端页面'],
-                              ['用 vue router 实现单页面跳转，vue resource 获取数据，用假数据进行 mock']
-                          ],
-                          delay:1100
-                      })
-                      .addComponent({
-                          type:'text',
-                          width:640,
-                          center:true,
-                          css:{
-                              position:'absolute',
-                              top:'460px',
-                              left:0,
-                              opacity:0,
-                              fontWeight:900
-                          },
-                          animateIn:{
-                              left:'50%',
-                              opacity:1
-                          },
-                          animateOut:{
-                              left:0,
-                              opacity:0
-                          },
-                          data:[
+                              // ['用 vue 仿写饿了么移动端页面'],
+                              // ['用 vue router 实现单页面跳转，vue resource 获取数据，用假数据进行 mock']
                               ['用 js 编写日历'],
                               ['动态生成日历表格和其中内容，可实现左右切换月份的功能，过去的日子为一种颜色 ，将来的日子为另一种颜色。']
                           ],
-                          delay:1300
+                          delay:1100
                       })
+                      // .addComponent({
+                      //     type:'text',
+                      //     width:640,
+                      //     center:true,
+                      //     css:{
+                      //         position:'absolute',
+                      //         top:'450px',
+                      //         left:0,
+                      //         opacity:0,
+                      //         fontWeight:900
+                      //     },
+                      //     animateIn:{
+                      //         left:'50%',
+                      //         opacity:1
+                      //     },
+                      //     animateOut:{
+                      //         left:0,
+                      //         opacity:0
+                      //     },
+                      //     data:[
+                      //         ['用 js 编写日历'],
+                      //         ['动态生成日历表格和其中内容，可实现左右切换月份的功能，过去的日子为一种颜色 ，将来的日子为另一种颜色。']
+                      //     ],
+                      //     delay:1300
+                      // })
                 .addPage()
                      .addComponent({
                         width:500,
@@ -764,7 +766,7 @@ let maxHeight = window.innerHeight;
                         width:370,
                         height :96,
                         center:true,
-                        text:'非计算机相关专业，但对编程充满热爱！',
+                        text:'对编程充满热爱！',
                         css:{
                             position:'absolute',
                             bottom:maxHeight/3,
