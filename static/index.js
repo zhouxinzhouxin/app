@@ -147,7 +147,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        top: 60,
+	        top: maxHeight / 10,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -171,7 +171,7 @@
 	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
-	        top: 150,
+	        top: maxHeight / 5,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -195,7 +195,7 @@
 	        color: 'rgb(255,255,200)'
 	    },
 	    animateIn: {
-	        top: 190,
+	        top: maxHeight / 4,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -263,7 +263,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        top: 60,
+	        top: maxHeight / 10,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -299,7 +299,7 @@
 	    width: 640,
 	    height: 50,
 	    center: true,
-	    text: '2017.3-2017.6 百度AI平台部',
+	    text: '2017.3-至今 百度AI平台部',
 	    css: {
 	        position: 'absolute',
 	        top: 0,
@@ -384,7 +384,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        top: 60,
+	        top: maxHeight / 10,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -513,7 +513,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        top: 60,
+	        top: maxHeight / 10,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -559,7 +559,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        top: 60,
+	        top: maxHeight / 10,
 	        opacity: 1
 	    },
 	    animateOut: {
@@ -569,7 +569,7 @@
 	    delay: 200
 	}).addComponent({
 	    width: 428,
-	    height: 92,
+	    height: maxHeight / 9,
 	    center: true,
 	    text: '用折线图表示',
 	    css: {
@@ -628,7 +628,7 @@
 	        opacity: 0
 	    },
 	    animateIn: {
-	        top: 60,
+	        top: maxHeight / 10,
 	        opacity: 1
 	    },
 	    animateOut: {

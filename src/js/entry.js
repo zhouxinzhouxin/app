@@ -100,7 +100,7 @@ let maxHeight = window.innerHeight;
                             opacity:0,
                         },
                         animateIn:{
-                            top:60,
+                            top:maxHeight/10,
                             opacity:1
                         },
                         animateOut:{
@@ -125,7 +125,7 @@ let maxHeight = window.innerHeight;
                             color:'rgb(255,255,200)'
                         },
                         animateIn:{
-                            top:150,
+                            top:maxHeight/5,
                             opacity:1
                         },
                         animateOut:{
@@ -150,7 +150,7 @@ let maxHeight = window.innerHeight;
                               color:'rgb(255,255,200)'
                           },
                           animateIn:{
-                              top:190,
+                              top:maxHeight/4,
                               opacity:1
                           },
                           animateOut:{
@@ -222,7 +222,7 @@ let maxHeight = window.innerHeight;
                               opacity:0,
                           },
                           animateIn:{
-                              top:60,
+                              top:maxHeight/10,
                               opacity:1
                           },
                           animateOut:{
@@ -349,7 +349,7 @@ let maxHeight = window.innerHeight;
                               opacity:0,
                           },
                           animateIn:{
-                              top:60,
+                              top:maxHeight/10,
                               opacity:1
                           },
                           animateOut:{
@@ -500,7 +500,7 @@ let maxHeight = window.innerHeight;
                             opacity:0,
                         },
                         animateIn:{
-                            top:60,
+                            top:maxHeight/10,
                             opacity:1
                         },
                         animateOut:{
@@ -559,7 +559,7 @@ let maxHeight = window.innerHeight;
                             opacity:0,
                         },
                         animateIn:{
-                            top:60,
+                            top:maxHeight/10,
                             opacity:1
                         },
                         animateOut:{
@@ -570,7 +570,7 @@ let maxHeight = window.innerHeight;
                      })
                      .addComponent({
                         width:428,
-                        height :92,
+                        height :maxHeight/9,
                         center:true,
                         text:'用折线图表示',
                         css:{
@@ -642,7 +642,7 @@ let maxHeight = window.innerHeight;
                             opacity:0,
                         },
                         animateIn:{
-                            top:60,
+                            top:maxHeight/10,
                             opacity:1
                         },
                         animateOut:{
