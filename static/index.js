@@ -432,7 +432,7 @@
 	        left: 0,
 	        opacity: 0
 	    },
-	    data: [['H5,CSS3写音乐播放器'], ['配合 zepto 组件，用 webpack 打包，可以实现音乐的播放，暂停，切换，列表中的功能点击播放，高斯模糊图片作为背景，拖拽进度条进行播放和收藏的功能。']],
+	    data: [['H5,CSS3写音乐播放器'], ['配合 zepto 组件，用 webpack 打包，可以实现音乐的播放，暂停，切换，列表中的功能点击播放，高斯模糊图片作为背景，拖拽进度条进行播放和收藏的功能。'], ['zhouxinzhouxin.github.io/music-player/index.html']],
 	    delay: 700
 	}).addComponent({
 	    type: 'text',
@@ -440,7 +440,7 @@
 	    center: true,
 	    css: {
 	        position: 'absolute',
-	        top: '294px',
+	        top: '310px',
 	        left: 0,
 	        opacity: 0,
 	        fontWeight: 900
@@ -453,7 +453,7 @@
 	        left: 0,
 	        opacity: 0
 	    },
-	    data: [['用原生 js 来编写计算器，扫雷小游戏，轮播图等'], ['计算器:实现加减乘除，清除，回退，带括号运算的功能。 扫雷:动态生成棋盘，实现扫雷游戏各个功能。 轮播图:正常样式和层叠样式两种。']],
+	    data: [['用 vue 仿写饿了么移动端页面'], ['用 vue router 实现单页面跳转，vue resource 获取数据，用假数据进行 mock']],
 	    delay: 900
 	}).addComponent({
 	    type: 'text',
@@ -474,10 +474,7 @@
 	        left: 0,
 	        opacity: 0
 	    },
-	    data: [
-	    // ['用 vue 仿写饿了么移动端页面'],
-	    // ['用 vue router 实现单页面跳转，vue resource 获取数据，用假数据进行 mock']
-	    ['用 js 编写日历'], ['动态生成日历表格和其中内容，可实现左右切换月份的功能，过去的日子为一种颜色 ，将来的日子为另一种颜色。']],
+	    data: [['用 js 编写日历'], ['动态生成日历表格和其中内容，可实现左右切换月份的功能，过去的日子为一种颜色 ，将来的日子为另一种颜色。']],
 	    delay: 1100
 	})
 	// .addComponent({
