@@ -429,8 +429,8 @@ let maxHeight = window.innerHeight;
                               opacity:0
                           },
                           data:[
-                              ['用 vue 仿写饿了么移动端页面'],
-                              ['用 vue router 实现单页面跳转，vue resource 获取数据，用假数据进行 mock']
+                              ['vue写，同步视频中的信息'],
+                              ['动态匹配视频中的语音、文字、人脸、场景信息，根据当前播放时间动态匹配视频中的字幕']
                           ],
                           delay:900
                       })
@@ -459,31 +459,6 @@ let maxHeight = window.innerHeight;
                           ],
                           delay:1100
                       })
-                      // .addComponent({
-                      //     type:'text',
-                      //     width:640,
-                      //     center:true,
-                      //     css:{
-                      //         position:'absolute',
-                      //         top:'450px',
-                      //         left:0,
-                      //         opacity:0,
-                      //         fontWeight:900
-                      //     },
-                      //     animateIn:{
-                      //         left:'50%',
-                      //         opacity:1
-                      //     },
-                      //     animateOut:{
-                      //         left:0,
-                      //         opacity:0
-                      //     },
-                      //     data:[
-                      //         ['用 js 编写日历'],
-                      //         ['动态生成日历表格和其中内容，可实现左右切换月份的功能，过去的日子为一种颜色 ，将来的日子为另一种颜色。']
-                      //     ],
-                      //     delay:1300
-                      // })
                 .addPage()
                      .addComponent({
                         width:500,
