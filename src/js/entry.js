@@ -459,65 +459,65 @@ let maxHeight = window.innerHeight;
                           ],
                           delay:1100
                       })
-                .addPage()
-                     .addComponent({
-                        width:500,
-                        height :124,
-                        center:true,
-                        text:'掌握技能',
-                        css:{
-                            position:'absolute',
-                            top:0,
-                            lineHeight:'46px',
-                            fontSize:'36px',
-                            textAlign:'center',
-                            fontWeight:'900',
-                            color:'rgb(255,255,200)',
-                            opacity:0,
-                        },
-                        animateIn:{
-                            top:maxHeight/10,
-                            opacity:1
-                        },
-                        animateOut:{
-                            top:0,
-                            opacity:0
-                        },
-                        delay:200
-                     })
-                     .addComponent({
-                         type:'Bar',
-                        width:500,
-                        height :300,
-                        center:true,
-                        css:{
-                            position:'absolute',
-                            bottom:0,
-                            opacity:0,
-                            color:(255,255,200),
-                            fontWeight:900
-                        },
-                        animateIn:{
-                            bottom:maxHeight/2,
-                            opacity:1
-                        },
-                        animateOut:{
-                            bottom:0,
-                            opacity:0
-                        },
-                          data:[
-                              ['html',.9,'red'],
-                              ['js',.8,'orange'],
-                              ['css',.9,'yellow'],
-                              ['jquery',.7,'green'],
-                              ['h5',.6,'blue'],
-                              ['es6',.7,'skyBlue'],
-                              ['vue',.7,'purple'],
-                              ['react',.6,'pink'],
-                              ['node.js',.6,'black']
-                          ],
-                         delay:1000
-                     })
+                // .addPage()
+                     // .addComponent({
+                     //    width:500,
+                     //    height :124,
+                     //    center:true,
+                     //    text:'掌握技能',
+                     //    css:{
+                     //        position:'absolute',
+                     //        top:0,
+                     //        lineHeight:'46px',
+                     //        fontSize:'36px',
+                     //        textAlign:'center',
+                     //        fontWeight:'900',
+                     //        color:'rgb(255,255,200)',
+                     //        opacity:0,
+                     //    },
+                     //    animateIn:{
+                     //        top:maxHeight/10,
+                     //        opacity:1
+                     //    },
+                     //    animateOut:{
+                     //        top:0,
+                     //        opacity:0
+                     //    },
+                     //    delay:200
+                     // })
+                     // .addComponent({
+                     //     type:'Bar',
+                     //    width:500,
+                     //    height :300,
+                     //    center:true,
+                     //    css:{
+                     //        position:'absolute',
+                     //        bottom:0,
+                     //        opacity:0,
+                     //        color:(255,255,200),
+                     //        fontWeight:900
+                     //    },
+                     //    animateIn:{
+                     //        bottom:maxHeight/2,
+                     //        opacity:1
+                     //    },
+                     //    animateOut:{
+                     //        bottom:0,
+                     //        opacity:0
+                     //    },
+                     //      data:[
+                     //          ['html',.9,'red'],
+                     //          ['js',.8,'orange'],
+                     //          ['css',.9,'yellow'],
+                     //          ['jquery',.7,'green'],
+                     //          ['h5',.6,'blue'],
+                     //          ['es6',.7,'skyBlue'],
+                     //          ['vue',.7,'purple'],
+                     //          ['react',.6,'pink'],
+                     //          ['node.js',.6,'black']
+                     //      ],
+                     //     delay:1000
+                     // })
                 .addPage()
                      .addComponent({
                         width:500,
