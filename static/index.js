@@ -453,7 +453,7 @@
 	        left: 0,
 	        opacity: 0
 	    },
-	    data: [['vue写，同步视频中的信息'], ['动态匹配视频中的语音、文字、人脸、场景信息，根据当前播放时间动态匹配视频中的字幕']],
+	    data: [['vue仿写ele'], ['用vue2.0仿写ele app页面，完成一套点餐下单的逻辑']],
 	    delay: 900
 	}).addComponent({
 	    type: 'text',
