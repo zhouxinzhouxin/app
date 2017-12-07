@@ -440,7 +440,7 @@
 	    center: true,
 	    css: {
 	        position: 'absolute',
-	        top: '310px',
+	        top: '315px',
 	        left: 0,
 	        opacity: 0,
 	        fontWeight: 900
