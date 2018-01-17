@@ -1,0 +1,158 @@
+@keyframes move{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    20%{
+        transform: rotateZ(-3deg);
+    }
+    40%{
+        transform: rotateZ(4deg);
+    }
+    60%{
+        transform: rotatez(-4deg);
+    }
+    80%{
+        transform:rotatez(3deg);
+    }
+    100%{
+        transform:rotatez(0deg);
+    }
+}
+@keyframes strgth {
+    0%{
+        letter-spacing: 0;
+    }
+    50%{
+        letter-spacing: 2px;
+    }
+    100%{
+        letter-spacing: 0;
+    }
+}
+@keyframes up{
+    50%{
+        top:50px;
+    }
+}
+@keyframes rotate {
+    0%{
+        transform: translateX(-50%) rotate(0deg);
+    }
+    100%{
+        transform: translateX(-50%) rotate(720deg);
+    }
+}
+.ComponentBase{
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transform: translateX(-50%);
+    text-align: center;
+    font-weight: 900;
+    color:rgb(255,255,200);
+}
+.shake {
+        animation: move 2s infinite 2s;
+}
+.back {
+    width:24px;
+    height :13px;
+    top:0;
+    opacity:0;
+    background-image:url(../img/back.png);
+    animation: up 1.5s infinite 1.5s;
+}
+.strgth {
+    animation: strgth 1.5s infinite .7s;
+    width:100%;
+    left:0;
+    line-height:30px;
+    font-size:30px;
+    opacity:0
+}
+.rotate{
+    animation: rotate .8s ease;
+}
+
+.resume{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 46px;
+    opacity: 0;
+}
+.name{
+    width: 100%;
+    left: 0;
+    line-height:45px;
+    font-size: 38px;
+    opacity:0;
+}
+.position {
+    left: 0;
+    width: 100%;
+    line-height: 45px;
+    font-size: 38px;
+    opacity:0
+}
+.second-title{
+    width:100%;
+    top: 0;
+    height: 46px;
+    line-height: 46px;
+    font-size: 36px;
+    opacity: 0;
+}
+.introduce{
+    width: 65%;
+    height: 150px;
+    bottom:0;
+    opacity:0;
+    background-image:url(../img/dialog.png);
+    padding:10px 10px 10px 10px;
+    text-align:justify;
+    font-size:18px;
+    line-height:25px;
+    color:black;
+}
+.child{
+    width:70%;
+    height: 28%;
+    bottom:-10px;
+    opacity:0;
+    background-image:url(../img/child.jpg);
+    background-size: contain;
+}
+.third-title{
+    top:0;
+    width: 100%;
+    height: 25px;
+    opacity:0;
+    line-height:25px;
+    font-size:25px;
+}
+.Internship{
+    top:100%;
+}
+.person-img{
+    bottom:150px;
+    width:0;
+    height :0;
+    opacity:0;
+    background-image:url(../img/people.jpeg);
+}
+.Poly{
+    height: 40%;
+    width: 90%;
+    bottom:0;
+    opacity:0;
+}
+.Pie{
+    bottom:0;
+    opacity: 0;
+}
+
+
+
